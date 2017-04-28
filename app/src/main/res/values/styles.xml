@@ -64,7 +64,7 @@
 
     <style name="AppThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:buttonStyle">@style/ButtonBlue</item>
-        <item name="android:windowBackground">@color/window_bg</item>
+        <item name="android:windowBackground">@color/white</item>
         <item name="android:background">#00F2F2EC</item>
         <item name="android:actionBarStyle">@style/AppTheme.AppBarOverlay</item>
         <item name="android:windowContentOverlay">@null</item>

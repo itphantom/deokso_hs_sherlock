@@ -2,13 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/com.udojava/EvalEx/1.6/3c248120388de8a38795e681450503f16f0395ce/EvalEx-1.6.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/92d717b407a44f35f684c1738f2758e5eccc8031/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3c248120388de8a38795e681450503f16f0395ce">
-        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/10/EvalEx-1.6_f4e654e8d208fa6ef8df42beb017a64a75d7ffdf/classes.dex" />
+        sha1="248fed0fd4ef1442847a45fc57b1b9b2be0d0550">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_8de8c1a6c8ec9b37470561fd499f287b887f402d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/libs/jericho-html-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/jericho-html-3.3_68cd8b2cb09e397db3e049041d65f5d61c258c35.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/dd460cdb0ccca8b740474c9e0c144edfc0c1aff7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b42a61cd5924f28e95894e859e6abe57847e2f3">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_cd19bd923fd51c7158e52026dd780fc61a63ad15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/99243da7669e890a892181c2c2d30782854c43ce/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888983f51cf34f57a93ff16832552f2f15937212">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_1bd27e7d73fda189ea10404e82c3b2bfe2ac46cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/glide-3.7.0_770225288c687b9ef5fc3eaa7d7260cbec7d1173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/03099c09e68a706715e9059503465bba6792b990/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0a843615f3b5fa3a080497709f5436696149a09">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_dc6c69f666940230949434b3a0861fc83e86143b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/e1bab8a8f367ad49951f604ef944eb0f17a38188/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_8e1a2779f02f8e85ea6da6eaf0c59f91be1d0d29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/1e3d0a1063680bcbce98a2deaba11edda386f8f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b215e312bdc1ee7bfda31674eab5df8bad45c014">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_9b2e18e3b7c7f075ac011340ed42da562600d9ad.jar" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +81,87 @@
         revision="25.0.2"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
         <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5f3d7833ab3b1db8ea9ba637f1696e582b5d583a/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/fe6e0bf28e73c4dafab2484b40f5d7fbd65ca9f1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_f3163402c1824945a9aedb57f4c7cdc64b6d5815.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/libs/jericho-html-3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/2/jericho-html-3.3_68cd8b2cb09e397db3e049041d65f5d61c258c35/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/0bfc55824784875347e85e52716a79043cef11ec/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a5d5553c308643a9022f15513ebdd59e9c78d82">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_73050b9189d92fcc24e4001888e3f2fa034dbb98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/96e57549c0d2dadcd3bf78b8f81d40ab336c7505/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_f5af0166d4f3901dd680c1d68ba7ac0ed1274836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/cd6e9a5693640345660c14f9576fd479fbf5c0c6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1aa1dd9917e887bfe732cc5e561ae6ae8f9a84a">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_772cbfdc2ac83a4b8dad8af7248b651c202a4462.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/2a5fd3e0de6dcfd921fe13d95936e134a33f3e88/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="399f75732ff1ac159f9e73611536f1508bf18d3b">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_04c2e668fdd04bc95916de1ecb4200363e2a4108.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/com.udojava/EvalEx/1.6/3c248120388de8a38795e681450503f16f0395ce/EvalEx-1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c248120388de8a38795e681450503f16f0395ce">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/10/EvalEx-1.6_f4e654e8d208fa6ef8df42beb017a64a75d7ffdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_3840539fb495da3422e16a95382f7b521346aabe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/f1d29b72f39de36cd866a1de87e6ea99616052b2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2349ddfe04831042844cbf055e5a072da37ddf8">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_8416c32b190607ce5405c58c63ef3a04bf9c39a4.jar" />
     </item>
     <item
         is-multidex="true"
@@ -38,13 +182,58 @@
         <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d281df35b78718e8cfe1b2846e4116f05056a176/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/libs/jericho-html-3.3.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/libs/school-api-3.0.3.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f7c1fe7aa0f8d073b47a1f9162df0ed3beee4029">
-        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/2/jericho-html-3.3_68cd8b2cb09e397db3e049041d65f5d61c258c35/classes.dex" />
+        sha1="b9dfd2e53e440c6ba965485ba40d41e7f3264d9a">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/school-api-3.0.3_2fe8155f8ed5240db5869ebc2bb2940adab1752a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/23d66326f2524e68427abcee20fef0d44d088da4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a7ffe939ffd830b5d4052f3c1c4c235923790ce">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_1f53c69521e2bbbf6be3f35620232d36faea2e12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/07b25f1bcb048a58e81919d123bd20afc28d2e6d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2fc859b7abb78d29169f6a582b45cbe1f3f1a4cc">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_2d19d21b1cfd318f98edac52d27cd79c4e64a066.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/library-2.4.0_4bee169a35f8b3d15cb486989ad0255aff2f9e13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.android/build-cache/6e0afe2638b9e37373537b741ca633f245ec8c56/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/classes_dfcdedee3d057e8a43cc6ba71cf9241d89881348.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/com.udojava/EvalEx/1.6/3c248120388de8a38795e681450503f16f0395ce/EvalEx-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3c248120388de8a38795e681450503f16f0395ce">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/pre-dexed/release/EvalEx-1.6_f4e654e8d208fa6ef8df42beb017a64a75d7ffdf.jar" />
     </item>
 
 </items>
