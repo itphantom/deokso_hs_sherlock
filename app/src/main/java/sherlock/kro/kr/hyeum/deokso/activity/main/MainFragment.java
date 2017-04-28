@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
 import sherlock.kro.kr.hyeum.deokso.R;
 import sherlock.kro.kr.hyeum.deokso.activity.bap.BapActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.exam.ExamTimeActivity;
@@ -17,6 +18,7 @@ import sherlock.kro.kr.hyeum.deokso.activity.home.HomeActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.notice.NoticeActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.schedule.ScheduleActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.timetable.TimeTableActivity;
+import sherlock.kro.kr.hyeum.deokso.activity.school.SchoolSchedule;
 import sherlock.kro.kr.hyeum.deokso.tool.BapTool;
 import sherlock.kro.kr.hyeum.deokso.tool.Preference;
 import sherlock.kro.kr.hyeum.deokso.tool.RecyclerItemClickListener;
@@ -64,6 +66,21 @@ public class MainFragment extends Fragment {
                 }else if(code==2) {
                     switch (position) {
                         case 0:
+                            startActivity(new Intent(getActivity(), ScheduleActivity.class));
+                            break;
+                        case 1:
+                            //                    Toast.makeText(getActivity(), "2016년 일정 준비중..", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getActivity(), SchoolSchedule.class));
+                            break;
+                        case 2:
+                            startActivity(new Intent(getActivity(), ExamTimeActivity.class));
+                            break;
+                        case 3:
+                            break;
+                    }
+                }else if(code==3) {
+                    switch (position) {
+                        case 0:
                             startActivity(new Intent(getActivity(), NoticeActivity.class));
                             break;
                         case 1:
@@ -76,7 +93,7 @@ public class MainFragment extends Fragment {
                         case 3:
                             break;
                     }
-                }else if(code==3) {
+                }else if(code==4) {
                     switch (position) {
                         case 0:
                             startActivity(new Intent(getActivity(), HomeActivity.class));
@@ -128,22 +145,28 @@ public class MainFragment extends Fragment {
             }
         } else if(code==2){
             // DetailedView
-            mAdapter.addItem(R.drawable.notice,
-                    getString(R.string.title_activity_notice),
-                    getString(R.string.message_activity_notice));
             mAdapter.addItem(R.drawable.calendar,
                     getString(R.string.title_activity_schedule),
                     getString(R.string.message_activity_schedule));
+            mAdapter.addItem(R.drawable.school,
+                    getString(R.string.title_activity_school),
+                    getString(R.string.message_activity_school));
             mAdapter.addItem(R.drawable.ic_launcher_big,
                     getString(R.string.title_activity_exam_range),
                     getString(R.string.message_activity_exam_range));
-        }else if (code==3) {
+        }else if(code==3){
+            // DetailedView
+            mAdapter.addItem(R.drawable.notice,
+                    getString(R.string.title_activity_notice),
+                    getString(R.string.message_activity_notice));
             mAdapter.addItem(R.drawable.list,
                     getString(R.string.title_activity_home),
                     getString(R.string.message_activity_home));
             mAdapter.addItem(R.drawable.article,
                     getString(R.string.title_activity_home2),
                     getString(R.string.message_activity_home2));
+        }else if (code==4) {
+
             mAdapter.addItem(R.drawable.calculator,
                     getString(R.string.title_activity_calculator),
                     getString(R.string.message_activity_calculator));

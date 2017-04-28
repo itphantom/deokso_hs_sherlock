@@ -18,13 +18,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.crashlytics.android.Crashlytics;
-import com.crashlytics.android.ndk.CrashlyticsNdk;
-
 import java.util.ArrayList;
 import java.util.List;
 
-import io.fabric.sdk.android.Fabric;
 import sherlock.kro.kr.hyeum.deokso.R;
 import sherlock.kro.kr.hyeum.deokso.activity.settings.SettingsActivity;
 import sherlock.kro.kr.hyeum.deokso.tool.Preference;
@@ -35,7 +31,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
         setContentView(R.layout.activity_main);
         Toolbar mToolbar = (Toolbar) findViewById(R.id.mToolbar);
         setSupportActionBar(mToolbar);
@@ -86,8 +81,9 @@ public class MainActivity extends AppCompatActivity {
         Adapter mAdapter = new Adapter(getSupportFragmentManager());
 
         mAdapter.addFragment(getString(R.string.activity_main_fragment_simple), MainFragment.getInstance(1));
-        mAdapter.addFragment(getString(R.string.activity_main_fragment_detailed), MainFragment.getInstance(2));
-        mAdapter.addFragment(getString(R.string.activity_main_fragment_plus), MainFragment.getInstance(3));
+        mAdapter.addFragment(getString(R.string.activity_main_fragment_date), MainFragment.getInstance(2));
+        mAdapter.addFragment(getString(R.string.activity_main_fragment_notice), MainFragment.getInstance(3));
+        mAdapter.addFragment(getString(R.string.activity_main_fragment_plus), MainFragment.getInstance(4));
 
         viewPager.setAdapter(mAdapter);
     }

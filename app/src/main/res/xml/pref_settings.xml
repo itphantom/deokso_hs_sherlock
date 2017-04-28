@@ -51,13 +51,13 @@
             android:key="openSource"
             android:summary="오픈소스 라이센스를 확인합니다"
             android:title="오픈소스 라이센스" />
-     <!-- <Preference
+     <Preference
             android:summary="이 어플의 모든 소스와, 작업 현황을 확인할 수 있습니다"
             android:title="어플 오픈소스">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://bitbucket.org/whdghks913/wondanghighschool" />
-        </Preference>-->
+                android:data="" />
+        </Preference>
         <Preference
             android:key="appInfo"
             android:summary="덕소고등학교 CUBE 단장 강희원"

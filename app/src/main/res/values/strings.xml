@@ -2,7 +2,9 @@
     <!-- 메인 -->
     <string name="app_name">덕소고등학교</string>
     <string name="activity_main_fragment_simple">간단 보기</string>
-    <string name="activity_main_fragment_detailed">교내 정보</string>
+    <string name="activity_main_fragment_notice">공지사항</string>
+    <string name="activity_main_fragment_date">일정</string>
+
     <string name="activity_main_fragment_plus">특수 기능</string>
     <!-- 기본 -->
     <string name="loading_title">로딩중</string>
@@ -66,6 +68,9 @@
     <!-- 일정 -->
     <string name="title_activity_schedule">일정</string>
     <string name="message_activity_schedule">일정을 확인합니다.</string>
+    <!--  대회  -->
+    <string name="title_activity_school">대회 일정</string>
+    <string name="message_activity_school">교내 대회를 확인합니다.</string>
     <!-- 급식 자동 업데이트 -->
     <string name="title_service_autoupdate">자동 업데이트 서비스</string>
     <string name="title_broadcast_autoupdate">자동 업데이트 리시버</string>
@@ -133,48 +138,29 @@
 \n other image : https://www.google.com/design/icons/</string>
     <!-- 수정 내역 -->
     <string name="changeLog_title">수정 내역</string>
-    <string name="changeLog_msg">V1
-        \n- 안드로이드 Material Design 업데이트
-        \n- 시간표 데이터를 인터넷에서 바로 업데이트 할 수 있도록 수정
-        \n- 튜토리얼 추가
-        \n- V1.3
-        \n-  교육청 신규 주소 적용
-        \n- V1.4
-        \n-  2학기 시간표 적용
-        \n- V1.5
-        \n-  2학기 일정 적용
-        \n- V1.6
-        \n-  급식 오류 수정 및 안정화
-        \n- V1.7
-        \n-  2학기 시험시간표 적용
-        \n- V1.8
-        \n-  아이콘 업데이트
-        \n- V2.0
+    <string name="changeLog_msg">V2.0
         \n-  덕소고 2.0으로 재출시
         \n-  급식 오류 해결
         \n-  2017 일정 등록
         \n-  특수기능-계산기 추가
         \n-  특수기능-공지사항 추가
         \n-  특수기능-가정통신문 추가
-        \n- V2.2
+        \n V2.2
         \n- 특수기능 공지사항 개선
         \n- 시간표 업데이트
         \n- 학생회 공지사항 활성화
-
+\n V3.0
+        \n- 메인화면 개선
+        \n- 대회 일정 추가
 
 
 
 </string>
     <!-- 업데이트 안내 -->
     <string name="update_notification_title">업데이트 내역</string>
-    <string name="update_notification_message">
-       \n- V2.0
-\n-  덕소고 2.0으로 재출시
-\n-  급식 오류 해결
-\n-  2017 일정 등록
-\n-  특수기능-계산기 추가
-\n-  특수기능-공지사항 추가
-\n-  특수기능-가정통신문 추가
+    <string name="update_notification_message">V3.0
+        \n- 메인화면 개선
+        \n- 대회 일정 추가
 
 </string>
     <string name="user_info_licensed">관리자 등급이 활성화되었습니다.</string>
