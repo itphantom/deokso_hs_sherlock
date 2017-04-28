@@ -8,17 +8,16 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.Toast;
 
 import sherlock.kro.kr.hyeum.deokso.R;
 import sherlock.kro.kr.hyeum.deokso.activity.bap.BapActivity;
-import sherlock.kro.kr.hyeum.deokso.activity.exam.ExamTimeActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.home.Home2Activity;
 import sherlock.kro.kr.hyeum.deokso.activity.home.HomeActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.notice.NoticeActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.schedule.ScheduleActivity;
-import sherlock.kro.kr.hyeum.deokso.activity.timetable.TimeTableActivity;
 import sherlock.kro.kr.hyeum.deokso.activity.school.SchoolSchedule;
+import sherlock.kro.kr.hyeum.deokso.activity.timetable.TimeTableActivity;
 import sherlock.kro.kr.hyeum.deokso.tool.BapTool;
 import sherlock.kro.kr.hyeum.deokso.tool.Preference;
 import sherlock.kro.kr.hyeum.deokso.tool.RecyclerItemClickListener;
@@ -73,7 +72,8 @@ public class MainFragment extends Fragment {
                             startActivity(new Intent(getActivity(), SchoolSchedule.class));
                             break;
                         case 2:
-                            startActivity(new Intent(getActivity(), ExamTimeActivity.class));
+                            Toast.makeText(getActivity(), "시험기간이 아닙니다", Toast.LENGTH_SHORT).show();
+                          //startActivity(new Intent(getActivity(), ExamTimeActivity.class));
                             break;
                         case 3:
                             break;
@@ -85,10 +85,10 @@ public class MainFragment extends Fragment {
                             break;
                         case 1:
                             //                    Toast.makeText(getActivity(), "2016년 일정 준비중..", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getActivity(), ScheduleActivity.class));
+                            startActivity(new Intent(getActivity(), HomeActivity.class));
                             break;
                         case 2:
-                            startActivity(new Intent(getActivity(), ExamTimeActivity.class));
+                            startActivity(new Intent(getActivity(), Home2Activity.class));
                             break;
                         case 3:
                             break;
@@ -96,13 +96,6 @@ public class MainFragment extends Fragment {
                 }else if(code==4) {
                     switch (position) {
                         case 0:
-                            startActivity(new Intent(getActivity(), HomeActivity.class));
-                            break;
-                        case 1:
-                            startActivity(new Intent(getActivity(), Home2Activity.class));
-
-                            break;
-                        case 2:
                             startActivity(new Intent(getActivity(), Calculate.class));
 
                             break;

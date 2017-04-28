@@ -25,12 +25,12 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import itmir.tistory.com.spreadsheets.GoogleSheetTask;
 import sherlock.kro.kr.hyeum.deokso.R;
 import sherlock.kro.kr.hyeum.deokso.tool.Database;
 import sherlock.kro.kr.hyeum.deokso.tool.Preference;
 import sherlock.kro.kr.hyeum.deokso.tool.TimeTableTool;
 import sherlock.kro.kr.hyeum.deokso.tool.Tools;
-import itmir.tistory.com.spreadsheets.GoogleSheetTask;
 
 public class TimeTableActivity extends AppCompatActivity {
     Preference mPref;
@@ -319,7 +319,7 @@ public class TimeTableActivity extends AppCompatActivity {
         try {
             String mText = "";
 
-            TimeTableTool.timeTableData mData = TimeTableTool.getTimeTableData(mGrade, mClass, position + 2);
+            TimeTableTool.timeTableData mData = TimeTableTool.getTimeTableData(mGrade, mClass, position);
 
             String[] subject = mData.subject;
 

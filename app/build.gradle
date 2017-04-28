@@ -43,5 +43,6 @@ dependencies {
     compile 'com.google.firebase:firebase-crash:+'
     compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:+'
     compile files('libs/school-api-3.0.3.jar')
+    compile 'com.udojava:EvalEx:1.6'
 }
 

@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/libs/school-api-3.0.3.jar"
+        jar="/Users/KangHeewon/.gradle/caches/modules-2/files-2.1/com.udojava/EvalEx/1.6/3c248120388de8a38795e681450503f16f0395ce/EvalEx-1.6.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="b9dfd2e53e440c6ba965485ba40d41e7f3264d9a">
-        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/2/school-api-3.0.3_2fe8155f8ed5240db5869ebc2bb2940adab1752a/classes.dex" />
+        sha1="3c248120388de8a38795e681450503f16f0395ce">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/10/EvalEx-1.6_f4e654e8d208fa6ef8df42beb017a64a75d7ffdf/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,11 +21,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/libs/school-api-3.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9dfd2e53e440c6ba965485ba40d41e7f3264d9a">
+        <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/2/school-api-3.0.3_2fe8155f8ed5240db5869ebc2bb2940adab1752a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e8e2a79b670f0c87aafbdd786c86df9765665b26">
+        sha1="736d4a9238dd1dd5a2d0cc0cfa56188cac831a9b">
         <dex dex="/Users/KangHeewon/Documents/Projects/android/deokso/deokso_hs_sherlock/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d281df35b78718e8cfe1b2846e4116f05056a176/classes.dex" />
     </item>
     <item
